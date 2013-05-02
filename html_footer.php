@@ -7,7 +7,6 @@
         
         if (isset($pagejs))
         {
-            f
             unset($pagejs);
         }
     ?>
