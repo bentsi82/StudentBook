@@ -1,0 +1,78 @@
+/* 
+    Document   : style
+    Created on : 15/03/2013, 15:22:46
+    Author     : Bentsi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    background-image: url('Pics/background.jpg');
+    font-weight: bold;  
+    color: white;
+    text-align: right;
+    text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+#main_header{
+    color: darkblue;
+    font-size: 19px;
+    text-shadow: black 0.3em 0.4em 1em;
+    position: absolute;
+    left: 38%;
+    top: 275px;
+}
+
+#login-layout{    
+    position: absolute;
+    right: 45%;
+    top: 40px;
+}
+
+.login-text{
+    font-size: 12px;
+}
+
+#signup-layout{
+    position: absolute;
+    right: 66%;
+    top: 240px;
+}
+
+#signup-header{
+    text-align: center;
+}
+
+.signup-text{
+    direction: ltr;
+    border: 1px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    font-size: 18px;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+}
+
+.signup-labels{
+    font-size: 15px;
+}
+
+a{
+    color: darkblue;
+    text-decoration: none;
+    text-shadow: none;
+}
+
+a:hover{
+    color: #FFF;
+}
+
