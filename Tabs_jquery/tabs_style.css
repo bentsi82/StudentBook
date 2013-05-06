@@ -42,20 +42,20 @@
 .tablist li.seperators{
     position: relative;
     padding-right: 0;
-    margin-left: -10px;
+    margin-left: -12px;
     background-color:#fff;
-    height: 2em;
+    height: 1.95em;
+    width: 4px;
     z-index: 1;
     color: #fff;
-    border-bottom-left-radius:5.50em;
-    border-top-left-radius:5.50em;
+    border-bottom-left-radius:5.5em;
+    border-top-left-radius:5.5em;
 }
 
 .tablist li#last{
-    width: 154px;
-    height: 2em;
+    width: 148px;
+    height: 1.95em;
     background-color:cornflowerblue;
-    padding:0.15em 1em;
     border-bottom-left-radius:0;
     border-top-left-radius:0;
 }
@@ -74,8 +74,13 @@
     text-shadow:1px 1px 0 #000;
 }
 
-#step_1 p#profile_header{
+p.profile_header{
     font-size: x-large;
+}
+
+input.welcome_submit{
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius:5px;
 }
 
 #step_1 table#profile_table{
@@ -95,13 +100,24 @@
     border-top-right-radius:5px;
 }
 
-#step_1 input.welcome_submit{
-    border-bottom-left-radius:5px;
-    border-bottom-right-radius:5px;
+#step_2 span#continue{
+    font-size: small;
+}
+
+#step_2 div#pic_area{
+    width: 100px;
+    height: 120px;
+    border: 1px solid #000;
+    margin-right: 37%;
+    margin-bottom: 10px;
+    background-color: #fff;
+}
+
+#step_2 input#file_upload{
+    margin-bottom: 15px;
 }
 
 #step_end p#welcome_start{
-    font-size: x-large;
     padding: 60px 0;
 }
 

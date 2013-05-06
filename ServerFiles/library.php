@@ -37,7 +37,7 @@ function sendpass()
     include_once 'sendpassword.php'; 
 }
 
-function tabsmenu()
+function regmenu()
 {
     include_once 'Tabs_jquery/tabs.php';
 }

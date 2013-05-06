@@ -34,7 +34,8 @@
         return $firstrow["Amount"] == 1;
     }
     
-    function sb_db_insertTable()
+    function sb_db_insertMember()
     {
+        
     }
 ?>
