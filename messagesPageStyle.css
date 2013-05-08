@@ -1,0 +1,40 @@
+/* 
+    Document   : messagesPageStyle
+    Created on : 23/03/2013, 20:03:21
+    Author     : Bentsi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#message-layout{
+    margin: 25% auto;
+    height: 500px;
+}
+
+#chat{
+    width: 70%;
+    height: 100%;
+    float: right;
+}
+
+#chat-tools{
+    border: 1px solid black;
+    width: 100%;
+    height: 70%;
+    float: top;
+}
+
+#chat-area{
+    border: 1px solid black;
+    width: 100%;
+    height: 30%;
+    float: bottom;
+}
+
+#members{
+   border: 1px solid black;
+   width: 25%;
+   height: 100%;
+   float: left;
+}
+

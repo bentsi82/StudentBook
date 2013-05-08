@@ -1,0 +1,5 @@
+<?php
+    $pagestyles;
+    $pagejs;
+    $isValidPage;
+?>

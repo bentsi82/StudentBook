@@ -1,0 +1,40 @@
+/* 
+    Document   : commonStyle
+    Created on : 21/03/2013, 20:10:51
+    Author     : Bentsi
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+body{
+    font: 0.88em/2em arial,geneva,helvetica,sans-serif;
+    direction: rtl;
+    background-image: url('Pics/subbackground.gif');
+    background-repeat: no-repeat;
+    background-position: top center;
+    text-align: center;
+}
+
+#logo-layout{
+    position: absolute;
+    left: 61%;
+    top: -3px;
+}
+
+.common-submit{
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 3px #666;
+    background-color: cornflowerblue;
+    color: #FFF;
+    font-weight: bold;
+}
+
+.common-submit:hover{
+    border-color: steelblue;
+    cursor: pointer;
+}
+
+.common-layout-size{
+    width: 913px;
+}
+
