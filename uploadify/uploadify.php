@@ -14,7 +14,6 @@ if (!empty($_FILES) && $_POST['token'] == $verifyToken) {
 	$tempFile = $_FILES['Filedata']['tmp_name'];
 	$targetPath = $_SERVER['DOCUMENT_ROOT'] . $targetFolder;
 	$targetFile = rtrim($targetPath,'/') . '/' . $_FILES['Filedata']['name'];
-        echo '$targetFile';
 	
 	// Validate the file type
 	$fileTypes = array('jpg','jpeg','gif','png'); // File extensions

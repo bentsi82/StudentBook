@@ -10,8 +10,7 @@
 <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Student Book - <?php echo $title;?></title>
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <?php 
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>        <?php 
 
             if (isset($pagejs))
                 foreach($pagejs as $script => $path)

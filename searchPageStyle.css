@@ -1,0 +1,18 @@
+/* 
+    Document   : search
+    Created on : 08/05/2013, 17:32:45
+    Author     : Administrator
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+#search_container{
+    margin-top: 30%;
+}
+
+#search_result{
+    border: 1px solid #000;
+    width: 200px;
+    margin-right: 45%
+}
+

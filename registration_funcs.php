@@ -1,5 +1,5 @@
 <?php
-
+    
     function save_to_db()
     {
         sb_db_connect();

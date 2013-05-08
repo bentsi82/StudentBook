@@ -51,6 +51,11 @@ function redirectOnNoLogin()
     }
 }
 
+function search()
+{
+    include_once 'search_container.php';
+}
+
 function mimuna()
 {
 	$x = array("heyo","whats up",3,4,5);
